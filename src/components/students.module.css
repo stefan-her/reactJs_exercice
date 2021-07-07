@@ -2,6 +2,11 @@
     border: 1px solid #ccc;
     margin: 1em;
     padding: 1em;
+    max-width: 30em;
+}
+
+.student:hover {
+    background-color: rgba(150,150,150,0.2);
 }
 
 .fail {
@@ -23,3 +28,4 @@
     color: orange;
     font-weight: bold;
 }
+
