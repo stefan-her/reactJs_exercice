@@ -16,4 +16,17 @@ const Student = (props) => {
 }
 
 
+Student.defaultProps = {
+    sexe: "x"
+}
+
+Student.propTypes = {
+    id: PropTypes.string.isRequired,
+    firstname: PropTypes.string.isRequired,
+    lastname: PropTypes.string.isRequired,
+    sexe: PropTypes.string,
+    option: PropTypes.string.isRequired,
+    result: PropTypes.number.isRequired
+}
+
 export default Student

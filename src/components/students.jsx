@@ -15,22 +15,4 @@ const Students = (props) => {
     );
 }
 
-Students.defaultProps = {
-    lis: PropTypes.arrayOf(PropTypes.shape({
-        sexe: "x"
-    }))
-    
-}
-
-Students.propTypes = {
-    lis: PropTypes.arrayOf(PropTypes.shape({
-        id: PropTypes.string.isRequired,
-        firstname: PropTypes.string.isRequired,
-        lastname: PropTypes.string.isRequired,
-        sexe: PropTypes.string,
-        option: PropTypes.string.isRequired,
-        resuslt: PropTypes.number.isRequired
-    }))
-}
-
 export default Students
