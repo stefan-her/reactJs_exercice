@@ -9,7 +9,6 @@ const listStudents = [
     "firstname":"arthur",
     "lastname":"lupine",
     "option":"mathématique",
-    "sexe":"x",
     "result":72
   },
   {
