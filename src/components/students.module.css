@@ -13,6 +13,10 @@
     border-color: darkred;
 }
 
+.fail:hover {
+    background-color: rgba(136, 36, 36, 0.2);
+}
+
 .student h1 {
     border-bottom: 1px solid #ccc;
     font-size: 1.5em;
