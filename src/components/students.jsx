@@ -1,10 +1,17 @@
 import PropTypes from 'prop-types';
-import {nanoid} from 'nanoid';
+import Student from './student';
 
 const Students = (props) => {
+    const lis = props.liste.map((s) => 
+        <Student key={s.id} data={s}/>
+    );
+
 
     return(
-        <div>Students</div>
+        <>
+            <h1>la liste</h1>
+            {lis}
+        </>
     );
 }
 

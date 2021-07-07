@@ -1,9 +1,11 @@
 import './App.css';
+import {nanoid} from 'nanoid';
 import './components/students';
 import Students from './components/students';
 
 const listStudents = [
   {
+    "id":nanoid(),
     "firstname":"arthur",
     "lastname":"lupine",
     "option":"mathématique",
@@ -11,6 +13,7 @@ const listStudents = [
     "result":72
   },
   {
+    "id":nanoid(),
     "firstname":"yves",
     "lastname":"rogne",
     "option":"science",
@@ -18,6 +21,7 @@ const listStudents = [
     "result":25
   },
   {
+    "id":nanoid(),
     "firstname":"oscar",
     "lastname":"paccio",
     "option":"lettre",
@@ -25,6 +29,7 @@ const listStudents = [
     "result":85
   },
   {
+    "id":nanoid(),
     "firstname":"abel",
     "lastname":"aubois-dormant",
     "option":"lettre",
@@ -32,6 +37,7 @@ const listStudents = [
     "result":72
   },
   {
+    "id":nanoid(),
     "firstname":"sandra",
     "lastname":"nicouette",
     "option":"science",
