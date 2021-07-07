@@ -1,23 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/students';
+import Students from './components/students';
+
+const listStudents = [
+  {
+    "firstname":"arthur",
+    "lastname":"lupine",
+    "option":"mathématique",
+    "sexe":"x",
+    "result":72
+  },
+  {
+    "firstname":"yves",
+    "lastname":"rogne",
+    "option":"science",
+    "sexe":"m",
+    "result":25
+  },
+  {
+    "firstname":"oscar",
+    "lastname":"paccio",
+    "option":"lettre",
+    "sexe":"m",
+    "result":85
+  },
+  {
+    "firstname":"abel",
+    "lastname":"aubois-dormant",
+    "option":"lettre",
+    "sexe":"f",
+    "result":72
+  },
+  {
+    "firstname":"sandra",
+    "lastname":"nicouette",
+    "option":"science",
+    "sexe":"f",
+    "result":89
+  }
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Students liste={listStudents}/>
     </div>
   );
 }
