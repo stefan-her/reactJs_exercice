@@ -18,3 +18,8 @@
 .result::after {
     content:" / 100";
 }
+
+.grade {
+    color: orange;
+    font-weight: bold;
+}

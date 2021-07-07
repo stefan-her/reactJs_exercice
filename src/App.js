@@ -41,7 +41,6 @@ const listStudents = [
     "lastname":"nicouette",
     "option":"science",
     "sexe":"f",
-    "result":89
   }
 ];
 
